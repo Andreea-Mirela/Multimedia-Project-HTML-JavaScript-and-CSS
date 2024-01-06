@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Prelucrare seturi de date</title>
+
+    <link rel="stylesheet" type="text/css" href="3_1087_STANCIU_ANDREEA_MIRELA.css" />
+
+    <script type="text/javascript" src="3_1087_STANCIU_ANDREEA_MIRELA.js">
+    </script>
+
+</head>
+<body>
+    <h1>Vizualizare date</h1>
+    <p>Cerinta 1 - preluare automata a datelor </p>
+    <p>Cerintele 2 si 3 - evolutie grafica a unui indicator intr-o tara, cu tooltip</p>
+    <label id="customText" for="indicator">Alegeti un indicator:</label>
+    <select name="indicator" id="indicator"></select>
+    <br />
+    <label id="customText" for="tara">Alegeti o tara:</label>
+    <select name="tara" id="tara"></select>
+
+    <br />
+    <input class="customButton" type="button" id="btnGrafic" value="Afiseaza evolutie" />
+    <input class="customButton2" type="button" id="btnStergeGrafic" value="Sterge" />
+
+    <br />
+    <svg id="idSvg" width="600" height="400" style="border: 1px solid black">
+    </svg>
+
+    <div id="tooltip"></div>
+
+
+    <p>Cerintele 4 si 5 - Bubble chart si animatie </p>
+    <label id="customText" for="anBubble">Alegeti un an:</label>
+    <select name="anBubble" id="anBubble"></select>
+
+    <br />
+    <input type="button" class="customButton" id="btnBubble" value="Afiseaza Bubble Chart" />
+    <input type="button" class="customButton2" id="btnStergeBubble" value="Sterge" />
+    <br />
+    <input type="button" class="customButton" id="btnBubbleAnimatie" value="Afiseaza Animatie Bubble Chart" />
+    <div id="idDiv" class="chart-container">
+        <canvas id="popChart"></canvas>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+    <p>Cerinta 6 - Tabel</p>
+    <label id="customText" for="anTabel">Alegeti un an:</label>
+    <select name="anTabel" id="anTabel"></select>
+    <br />
+    <input type="button" class="customButton" id="btnTabel" value="Afiseaza tabel" />
+    <input type="button" class="customButton2" id="btnStergeTabel" value="Sterge" />
+    <br />
+    <table id="idTabel">
+        <thead>
+            <tr>
+                <td>Tara/Indicator</td>
+                <td>Speranta la viata</td>
+                <td>Populatie</td>
+                <td>Produs intern brut</td>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+
+</body>
+</html>

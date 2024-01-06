@@ -1,0 +1,155 @@
+body {
+    background-image: url("media/img2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+polyline {
+    fill: transparent;
+    stroke: pink;
+    stroke-width: 3;
+}
+
+#tooltip {
+    display: none;
+    position: absolute;
+    background-color: lavenderblush;
+    color: brown;
+    padding: 16px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+svg {
+    display: none;
+}
+
+canvas {
+    display: none;
+}
+
+.chart-container {
+    display: none;
+    width: 1000px;
+    height: 600px;
+}
+
+table {
+    visibility: hidden;
+    border: 1px solid Gray;
+}
+
+td, th {
+    padding: 8px 12px;
+    border-bottom: 1px solid Gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    word-spacing: 1px;
+    color: #5F235B;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 27px;
+    letter-spacing: -1px;
+    word-spacing: -0.8px;
+    color: #B21F9F;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.customButton2 {
+    box-shadow: -2px 14px 24px -11px #73275e;
+    background: linear-gradient(to bottom, #946dc7 5%, #eb81c4 100%);
+    background-color: #946dc7;
+    border-radius: 14px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 7px 14px;
+    text-decoration: none;
+    text-shadow: 1px 4px 3px #612147;
+}
+
+.customButton2:hover {
+    background: linear-gradient(to bottom, #eb81c4 5%, #946dc7 100%);
+    background-color: #e5038a;
+}
+.customButton {
+    box-shadow: -2px 14px 24px -11px #73275e;
+    background: linear-gradient(to bottom, #6859b3 5%, #e5038a 100%);
+    background-color: #6859b3;
+    border-radius: 14px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 7px 14px;
+    text-decoration: none;
+    text-shadow: 1px 4px 3px #612147;
+}
+
+    .customButton:hover {
+        background: linear-gradient(to bottom, #e5038a 5%, #6859b3 100%);
+        background-color: #e5038a;
+    }
+
+#customText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    word-spacing: 1px;
+    color: #D279A8;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    word-spacing: 1px;
+    color: #7E124E;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+select {
+    display: block;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #7E124E;
+    padding: 0.6em 1.4em 0.5em 0.8em;
+    width: 8%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+    border-radius: 0.25em;
+    background-color: #DBDEE7;
+    position: relative;
+}
